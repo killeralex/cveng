@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Open+Sans&display=swap');
-
 * {
     scroll-behavior: smooth;
 }
@@ -71,7 +70,6 @@ header nav ul li div:hover {
     flex-direction: column;
     margin-top: 60px;
     border-top: 6px solid aquamarine;
-    border-left: 6px solid aquamarine;
     background-color: aquamarine;
 }
 
@@ -97,6 +95,11 @@ header nav ul li div:hover {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
 }
 
 hr {
@@ -147,7 +150,6 @@ hr {
 .main-menu-section-content {
     margin-top: 10px;
 }
-
 
 .grey-frame {
     background-color: lightgray;
